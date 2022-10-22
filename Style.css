@@ -1,0 +1,136 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .HeaderImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        margin-top: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    .NavBar{
+        overflow: hidden;
+        position: relative;
+    }
+    #NavBarBurgerMenu {
+        display: none;
+      }
+      #NavBar a li{
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        background-color: black;
+      }
+
+      body{
+        margin-left: 100px;
+        margin-right: 100px;
+        background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%); 
+        background-repeat: no-repeat;
+    }
+   /* a li{
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        background-color: black;
+    }
+    a{
+        text-decoration: none;
+    }*/
+
+}
+@media screen and (min-width: 1024px) {
+
+    .HeaderImg{
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-top: 20px;
+        opacity: 70%;
+    }
+    #NavBar .icon{
+        display: none;
+    }
+h1{
+    text-align: center;
+
+}
+#NavBar{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline;
+    margin: auto;
+  }
+#NavBar a{
+    text-decoration: none;
+    color: black;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    margin: auto;
+
+    /*background-image: url("Button.png");
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+#NavBar #Border{
+    border-right: none;
+}
+
+main{
+    margin: auto;
+    
+}
+div.gallery{
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 500px;
+}
+div.gallery img{
+    border: 1px solid #ccc;
+        width: 540px;
+        height: 400px;
+        margin: auto;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 50%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    text-align:left;
+}
+
+footer{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+#Dotaz{
+    height: 300px;
+    width: 500px;
+    padding: 0%;
+}
+p img{
+    height: 100px;
+    width: 200px;
+    float:left;
+}
+#News {
+    float: right;
+}
+}
