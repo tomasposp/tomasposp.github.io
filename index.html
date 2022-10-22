@@ -38,7 +38,8 @@
 <footer>
 
   <p>
-    Jedná se o studentský zápočtový projekt 
+    Jedná se o studentský zápočtový projekt <br>
+    <p id="date"></p>
   </p>
 </footer>
 </html>
@@ -52,4 +53,7 @@
     x.style.display = "block";
   }
 }
+let text = this.document.lastModified;
+    document.getElementById("date").innerHTML = "Poslední úprava: " + text;
+    console.log(text);
 </script>
