@@ -2,13 +2,13 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .HeaderImg{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 20%;
+        margin: auto;
+        width: 60%;
         margin-top: 20px;
+        opacity: 70%;
     }
     h1{
         text-align: center;
@@ -17,43 +17,169 @@ html{
         overflow: hidden;
         position: relative;
     }
-    #NavBarBurgerMenu {
-        display: none;
-      }
-      #NavBar a li{
+li{
         display: block;
-        color: white;
-        padding: 8px 16px;
-        background-color: black;
+        color: black;
       }
 
-      body{
-        margin-left: 100px;
-        margin-right: 100px;
-        background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%); 
-        background-repeat: no-repeat;
-    }
-   /* a li{
-        display: block;
-        color: white;
-        padding: 8px 16px;
-        background-color: black;
-    }
-    a{
+#NavBar a{
         text-decoration: none;
-    }*/
-
+        color: black;
+        padding-left: 20%;
+        padding-right: 50%;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        border-style: solid;
+        border-width: 2px;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        margin: auto;
+    }
+#NavBar #BorderTop{
+        border-top:none ;
+    }
+main{
+        margin: auto;
+    }
+    div.gallery{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto;
+    }
+    div.gallery img{
+        border: 1px solid #ccc;
+        width: 95%;
+        height: 95%;
+        margin: auto;
+    }
+    
+    body{
+        margin-left: 15%;
+        margin-right: 15%;
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 50%, rgba(255,255,255,1) 100%);
+        background-repeat: no-repeat;
+ 
+    }
+    footer{
+        text-align: center;
+    }
+    table{
+        margin: auto;
+    }
+    #Question{
+        height: 150px;
+        width: 300px;
+        padding: 0%;
+    }
+    p img{
+        height: 200px;
+        width: 300px;
+        margin: auto;
+    }
+    #News {
+        margin: auto;
+    }
+    form{
+        text-align: center;
+    }
 }
-@media screen and (min-width: 1024px) {
-
-    .HeaderImg{
+@media screen and (min-width: 600px) { 
+.HeaderImg{
         display: block;
         margin: auto;
         width: 60%;
         margin-top: 20px;
         opacity: 70%;
     }
-    #NavBar .icon{
+h1{
+    text-align: center;
+}
+#NavBarBurgerMenu {
+    display: none;
+  }
+#NavBar{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline;
+    margin: auto;
+  }
+#NavBar a{
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    margin: auto;
+}
+#NavBar #Border{
+    border-right: none;
+}
+
+main{
+    margin: auto;
+}
+div.gallery{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto;
+}
+div.gallery img{
+    border: 1px solid #ccc;
+    width: 95%;
+    height: 95%;
+    margin: auto;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 50%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    text-align:left;
+}
+footer{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+#Question{
+    height: 300px;
+    width: 500px;
+    padding: 0%;
+}
+p img{
+    height: 200px;
+    width: 300px;
+    float:left;
+    margin-right:10px;
+}
+#News {
+    float: right;
+}
+form{
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.HeaderImg{
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-top: 20px;
+        opacity: 70%;
+    }
+#NavBar .icon{
         display: none;
     }
 h1{
@@ -71,8 +197,8 @@ li{
 #NavBar a{
     text-decoration: none;
     color: black;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 15px;
     padding-top: 15px;
     border-style: solid;
@@ -81,10 +207,6 @@ li{
     border-top: none;
     border-bottom: none;
     margin: auto;
-
-    /*background-image: url("Button.png");
-    background-repeat: no-repeat;
-    background-position: center;*/
 }
 #NavBar #Border{
     border-right: none;

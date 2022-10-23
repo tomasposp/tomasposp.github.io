@@ -6,24 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="Style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-<nav>
-  <div id="NavBar">
-    <ul>
-    <a href="javascript:void(0);" class="icon" onclick="BurgerMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-    <div id="NavBarBurgerMenu">
-    <li><a href="index.html">Hlavní stránka</a></li>
-    <li><a href="News.html">Novinky</a></li>
-    <li><a href="Pictures.html">Obrázky</a></li>
-    <li></li><a href="Contact.html">Kontakty</a></li>
-    <li></li><a href="About.html" id="Border">O nás</a></li>
-  </ul>
-</div>
+  <nav>
+    <ul id="NavBar">
+        <a href="index.html" id="BorderTop"><li>Hlavní stránka</li></a>
+        <a href="News.html"><li>Novinky</li></a>
+        <a href="Pictures.html"><li>Obrázky</li></a>
+        <a href="Contact.html"><li>Kontakt</li></a>
+        <a href="About.html" id="Border"><li>O nás</li></a>
+      </ul>
 </nav>
 <br>
 <header>
@@ -43,16 +36,7 @@
   </p>
 </footer>
 </html>
-
 <script>
-    function BurgerMenu() {
-  var x = document.getElementById("NavBarBurgerMenu");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
 let text = this.document.lastModified;
     document.getElementById("date").innerHTML = "Poslední úprava: " + text;
     console.log(text);
