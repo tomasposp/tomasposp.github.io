@@ -25,16 +25,15 @@ li{
 #NavBar a{
         text-decoration: none;
         color: black;
-        padding-left: 20%;
-        padding-right: 50%;
-        padding-bottom: 20px;
-        padding-top: 0px;
-        border-style: solid;
-        border-width: 2px;
-        border-left: none;
-        border-bottom: none;
-        border-right: none;
+        border: 1px;
+        border-style:solid;
+        border-left:none;
+        border-top: none;
+        border-right:none ;
         margin: auto;
+        padding-left: 100%;
+        padding-bottom:17px ;
+        text-align: center;
     }
 #NavBar #BorderTop{
         border-top:none ;
