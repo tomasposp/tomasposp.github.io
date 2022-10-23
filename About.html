@@ -50,8 +50,14 @@
 <footer>
 
     <p>
-        Web slouží jako školní projekt
+        Web slouží jako školní projekt<br>
+        <p id="date"></p>
     </p>
 </footer>
+<script>
+    let text = this.document.lastModified;
+    document.getElementById("date").innerHTML = "Poslední úprava: " + text;
+    console.log(text);
+</script>
 
 </html>

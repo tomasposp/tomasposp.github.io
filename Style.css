@@ -133,4 +133,7 @@ p img{
 #News {
     float: right;
 }
+form{
+    text-align: center;
+}
 }

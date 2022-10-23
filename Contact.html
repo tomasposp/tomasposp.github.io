@@ -21,15 +21,15 @@
     <main>
         <form>
             <label for="Jmeno">Jméno:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" name="fname" required><br>
             <label for="Prijmeni">Příjmení:</label><br>
-            <input type="text" id="sname" name="sname"><br>
+            <input type="text" id="sname" name="sname" required><br>
             <label for="Email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
+            <input type="email" id="email" name="email" required><br>
             <label for="TelCIslo">Telefonní číslo:</label><br>
-            <input type="tel" id="tel" name="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{3}"><br>
+            <input type="tel" id="tel" name="tel" required><br>
             <label for="dotaz">Dotaz:</label><br>
-            <textarea id="Dotaz"  id="dotaz" name="dotaz"></textarea><br>
+            <textarea id="Dotaz"  id="dotaz" name="dotaz" required></textarea><br>
             <br>
             <input type="submit" value="Submit">
         </form>
@@ -39,7 +39,13 @@
 <footer>
 
     <p>
-        Web slouží jako školní projekt
+        Web slouží jako školní projekt<br>
+        <p id="date"></p>
     </p>
 </footer>
+<script>
+    let text = this.document.lastModified;
+    document.getElementById("date").innerHTML = "Poslední úprava: " + text;
+    console.log(text);
+</script>
 </html>
