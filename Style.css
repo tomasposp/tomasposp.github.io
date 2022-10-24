@@ -96,6 +96,7 @@ table{
     #Mapa{
         margin-left: 5%;
     }
+
 }
 @media screen and (min-width: 600px) { 
 .HeaderImg{
@@ -270,5 +271,9 @@ p img{
 }
 form{
     text-align: center;
+}
+#text{
+    font-size: large;
+text-align: center;
 }
 }
