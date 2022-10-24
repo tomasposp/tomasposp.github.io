@@ -8,48 +8,45 @@
     <link rel="stylesheet" type="text/css" href="Style.css">
 </head>
 <body>
-        <nav>
-            <ul id="NavBar">
-                <a href="index.html"><li>Hlavní stránka</li></a>
-                <a href="News.html"><li>Novinky</li></a>
-                <a href="Pictures.html"><li>Obrázky</li></a>
-                <a href="Contact.html"><li>Kontakt</li></a>
-                <a href="About.html" id="Border"><li>O nás</li></a>
-              </ul>
-        </nav>
+    <nav>
+        <ul id="NavBar">
+          <li><a href="index.html" id="BorderTop">Hlavní stránka</a></li>
+          <li><a href="News.html">Novinky</a></li>
+          <li><a href="Pictures.html">Obrázky</a></li>
+          <li><a href="Contact.html">Kontakt</a></li>
+          <li><a href="About.html" id="Border">O nás</a></li>
+          </ul>
+    </nav>
         <main>
 
-            <p id="News"> 
-                <img src="/Master.png" alt="Placeholder"></img>
+            <p class="News"> 
+                <img src="/Master.png" alt="Placeholder">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p><br>
-            <p id="News"> 
-                <img src="/Master.png" alt="Placeholder"></img>
+            <p class="News"> 
+                <img src="/Master.png" alt="Placeholder">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p><br>
-            <p id="News"> 
-                <img src="/Master.png" alt="Placeholder"></img>
+            <p class="News"> 
+                <img src="/Master.png" alt="Placeholder">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p><br>
-            <p id="News"> 
-                <img src="/Master.png" alt="Placeholder"></img>
+            <p class="News"> 
+                <img src="/Master.png" alt="Placeholder">
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p><br>
 
     </main>
     
-
+    <footer>
+        <p>
+            Jedná se o studentský zápočtový projekt <br>
+            <p id="date"></p>
+    </footer>
+    <script>
+        let text = this.document.lastModified;
+        document.getElementById("date").innerHTML = "Poslední úprava: " + text;
+        console.log(text);
+    </script>
 </body>
-
-<footer>
-    <p>
-        Jedná se o studentský zápočtový projekt <br>
-        <p id="date"></p>
-    </p>
-</footer>
-<script>
-    let text = this.document.lastModified;
-    document.getElementById("date").innerHTML = "Poslední úprava: " + text;
-    console.log(text);
-</script>
 </html>

@@ -20,24 +20,25 @@ html{
     .NavBar{
         overflow: hidden;
         position: relative;
+
     }
 li{
         display: block;
         color: black;
+        text-align: center;
+        padding: 2%;
+        border: 1px;
+        border-style:solid;
+        border-left:none;
+        border-top: none;
+        border-right:none;
+        width: 50%;
+        margin: auto;
       }
 
 #NavBar a{
         text-decoration: none;
         color: black;
-        border: 1px;
-        border-style:solid;
-        border-left:none;
-        border-top: none;
-        border-right:none ;
-        margin: auto;
-        padding-left: 100%;
-        padding-bottom:17px ;
-        text-align: center;
     }
 #NavBar #BorderTop{
         border-top:none ;
@@ -82,7 +83,7 @@ table{
         width: 300px;
         margin: auto;
     }
-    #News {
+    .News {
         margin-left: 7%;
     }
     form{
@@ -175,7 +176,7 @@ p img{
     float:left;
     margin-right:10px;
 }
-#News {
+.News {
     float: right;
 }
 form{
@@ -264,7 +265,7 @@ p img{
     width: 200px;
     float:left;
 }
-#News {
+.News {
     float: right;
 }
 form{
