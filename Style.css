@@ -82,9 +82,9 @@ table{
         margin: auto;
     }
     p img{
-        height: 200px;
-        width: 300px;
-        margin: auto;
+        height: 250px;
+        width: 350px;
+        margin-left: 2%;
     }
     p{
         text-align: center;
@@ -185,6 +185,8 @@ p img{
     width: 300px;
     float:left;
     margin-right:10px;
+    height: 250px;
+    width: 350px;
 }
 p{
     text-align: center;
