@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,7 @@
             <label for="Question">Dotaz:</label><br>
             <textarea id="Question" name="Question" required></textarea><br>
             <br>
-            <input type="submit" value="Odeslat">
+            <input type="submit" value="Odeslat" onclick="odeslani()">
         </form>
     </main>
     <footer>
@@ -49,6 +49,10 @@
         let text = this.document.lastModified;
         document.getElementById("date").innerHTML = "Poslední úprava: " + text;
         console.log(text);
+
+        function odeslani() {
+        alert("Formulář byl úspěšně odeslán!");
+  }
     </script>
 </body>
 </html>
