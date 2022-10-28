@@ -63,11 +63,9 @@ div.gallery img{
     }
     
 body{
-        
         margin-right: 10%;
         background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 50%, rgba(255,255,255,1) 100%);
         background-repeat: no-repeat;
- 
     }
 footer{
         text-align: center;
@@ -260,7 +258,7 @@ div.gallery img{
 body{
     margin-left: 100px;
     margin-right: 100px;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255) 0%, rgba(0, 212, 255) 50%, rgb(255, 255, 255) 100%);
     background-repeat: no-repeat;
     text-align:center;
 }
